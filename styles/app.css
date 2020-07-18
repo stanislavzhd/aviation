@@ -1,0 +1,559 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d437e;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  color: #eeeeee;
+}
+
+.av-container-background_left{
+  position: absolute;
+  background-image: url(/AviationLanding/images/net2.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 45%;
+  z-index: 5;
+  left: 0rem;
+  top: 112rem;
+}
+
+.av-container-background_right{
+  position: absolute;
+  background-image: url(/AviationLanding/images/net.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  width: 50%;
+  height: 45%;
+  z-index: 5;
+  right: 0rem;
+  top: 0rem;
+}
+
+.av-container-background_bottom{
+  position: absolute;
+  background-image: url(/AviationLanding/images/net3.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 50%;
+  height: 45%;
+  z-index: 5;
+  right: 0rem;
+  bottom: 0rem;
+}
+
+a{
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+/* header start */
+
+.av-header{
+  position: absolute;
+  padding: 2.5em 10em 0 10em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.av-header-logo{
+  width: 176px;
+  height: 50px;
+}
+
+.av-nav-menu{
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  z-index: 5;
+}
+
+.av-nav-menu_item{
+  padding-left: 1.714em;
+  text-transform: uppercase;
+  font-size: 1.428em;
+  font-weight: 700;
+}
+
+.av-nav-menu_item a:hover{
+  color: #ffd233;
+  border-bottom: solid #ffd233;
+}
+
+.av-header-button{
+  width: 166px;
+  height: 45px;
+  border: none;
+  background-color: #ffd233;
+  text-transform: uppercase;
+  font-size: 1.428em;
+  font-weight: 700;
+  color: #1057a6;
+  margin-left: 1.714em;
+  z-index: 5;
+}
+
+.av-header-button:hover{
+  background-color: #eeeeee;
+  color: #ffd233;
+}
+
+.av-header-background{
+  position: absolute;
+  right: -5rem;
+  top: 0;
+  z-index: 0;
+}
+
+/* header end */
+
+/* start main-banner */
+
+.av-main-banner{
+  background-image: url(../images/header_background.png);
+  background-repeat: no-repeat;
+  padding: 17.5em 10em 9.5em 10em;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 4em;
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  padding-left: 30.812rem;
+  font-weight: 400;
+}
+
+.av-main-banner_text{
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-left: 30.812rem;
+  margin: 0;
+}
+
+.av-main-banner_slider{
+  padding-left: 30.812rem;
+  padding-top: 1.428em;
+}
+
+.av-main-banner_slider-page{
+  width: 16px;
+  height: 16px;
+  margin-right: 1.428em;
+}
+
+/* end main-banner */
+
+/* section industries */
+
+.av-main-industries{
+  background-color: #0d437e;
+  padding: 0 10em;
+  z-index: 5;
+}
+
+h2{
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  padding-top: 3.875rem;
+  padding-bottom: 2.562rem;
+  font-weight: 400;
+  z-index: 10;
+}
+
+.av-main-industries-list{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.av-main-industries-list_item{
+  text-align: center;
+}
+
+.av-main-industries-list_title{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.214em;
+}
+
+.av-main-industries-list_icon{
+  width: 48px;
+  height: 48px;
+  padding-top: 1rem;
+}
+
+.rotate{
+  transform: rotate(90deg);
+  padding-top: 0;
+  padding-left: 1rem;
+}
+
+/* section expertise */
+
+.av-main-expertise{
+  position: relative;
+  background-color: #0d437e;
+  padding: 0 10em;
+}
+
+.av-main-expertise-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.av-main-expertise-radar{
+  position: relative;
+  background-image: url(/AviationLanding/images/Radar_icons/radar.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 33%;
+}
+
+.av-main-expertise_icon{
+  position: absolute;
+  width: 38px;
+  height: 38px;
+}
+
+.automatisation{
+  left: 10.5rem;
+  top: 1rem;
+}
+
+.ecommerce{
+  right: 4rem;
+  top: 3.5rem;
+}
+
+.booking{
+  right: 1.3rem;
+  top: 9rem;
+}
+
+.api{
+  right: 2.8rem;
+  bottom: 11rem;
+}
+
+.team{
+  right: 7rem;
+  bottom: 7.5rem;
+}
+
+.fuel{
+  left: 7rem;
+  bottom: 7.5rem;
+}
+
+.reengineering{
+  left: 2.5rem;
+  bottom: 11.5rem;
+}
+
+.computer{
+  left: 1.3rem;
+  bottom: 16.5rem;
+}
+
+.gaming{
+  left: 3.5rem;
+  top: 4rem;
+}
+
+.av-main-expertise-info_list{
+  padding-bottom: 6.5rem;
+  padding-left: 2rem;
+  z-index: 5;
+}
+
+.av-main-expertise-info_item{
+  padding-bottom: 3.25rem;
+  color: #efc836;
+  font-size: 1.142em;
+  font-weight: 700;
+}
+
+.av-main-expertise-info_item:last-child{
+  padding-bottom: 1.5rem;
+}
+
+.av-main-expertise-info_button{
+  text-transform: uppercase;
+  color: #1057a6;
+  background-color: #ffd233;
+  border: none;
+  font-size: 1.142em;
+  font-weight: 700;
+  padding: 0.7rem 1.6875rem;
+  z-index: 5;
+}
+
+.av-main-expertise-info_button:hover{
+  background-color: #eeeeee;
+  color: #ffd233;
+}
+
+.av-main-expertise_lines{
+  position: absolute;
+  z-index: 5;
+  width: 340px;
+  height: 340px;
+  opacity: .3;
+  top: 0rem;
+  left: 24rem;
+}
+
+/* section standarts */
+
+.av-main-standarts{
+  position: relative;
+  background-color: #fff;
+  padding: 0 10em;
+}
+
+h2.light{
+  color: #0e427c;
+}
+
+.av-main-standarts_description{
+  text-align: center;
+  color: #0e427c;
+  font-size: 1.714em;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 6.4375rem;
+}
+
+.av-main-standarts_icon{
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+}
+
+.av-main-standarts_lines{
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  opacity: .3;
+  top: 7rem;
+  right: 5rem;
+}
+
+.av-main-standarts-block{
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.av-main-standarts-block_left{
+  max-width: 40%;
+}
+
+.av-main-standarts-block_right{
+  max-width: 40%;
+}
+
+.av-main-standarts-block_item{
+  display: flex;
+  align-items: center;
+  padding-bottom: 5.625rem;
+}
+
+.av-main-standarts_text{
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 1.285em;
+  color: #0e427c;
+  line-height: 1.67;
+}
+
+.av-main-standarts-background_right{
+  position: absolute;
+  right: 0;
+  top: 24rem;
+  z-index: 0;
+}
+
+/* section value */
+
+.av-main-value{
+  position: relative;
+  background-color: #0d437e;
+  padding: 0 10em;
+}
+
+.av-main-value_all{
+  display: flex;
+  justify-content: space-between;
+}
+
+.av-main-value-block{
+  max-width: 15%;
+  text-align: left;
+}
+
+.av-main-value-block_icon{
+  width: 64px;
+  height: 64px;
+}
+
+.av-main-value-block_item{
+  margin: 0;
+  font-size: 1.142em;
+  line-height: 1.94;
+  padding-top: 0.8rem;
+  padding-bottom: 5rem;
+}
+
+.av-main-value_lines{
+  position: absolute;
+  z-index: 100;
+  width: 340px;
+  height: 340px;
+  opacity: .3;
+  bottom: -7rem;
+  left: 28rem;
+}
+
+/* section feedback */
+
+.av-main-feedback{
+  background-color: #fff;
+  padding: 0 10em;
+}
+
+h3{
+  font-size: 3.571em;
+  line-height: 1.41;
+  color: #0e427c;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 3.75rem;
+  padding-bottom: 2.25rem;
+}
+
+.av-main-feedback-block{
+  position: relative;
+  margin: 0;
+  box-shadow: 0 4px 20px 0 #bad0e8;
+  z-index: 10;
+}
+
+.av-main-feedback_icon{
+  width: 64px;
+  height: 64px;
+}
+
+.up{
+  position: absolute;
+  left: 1rem;
+  top: .5rem;
+}
+
+.down{
+  position: absolute;
+  z-index: 5;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.av-main-feedback-block_content{
+  margin: 0;
+  padding: 1.875rem 6rem;
+  font-size: 1.357em;
+  text-align: center;
+  font-style: italic;
+  color: #114986;
+  line-height: 1.79;
+  background-color: #fff;
+}
+
+.av-main-feedback-block_name{
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0e427c;
+  font-size: 1.714em;
+  font-weight: 700;
+  padding-top: 1.312rem;
+}
+
+.av-main-feedback-block_title{
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0e427c;
+  font-size: 1.142em;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 3.437rem;
+}
+
+/* start footer */
+
+.av-footer{
+  position: relative;
+  background-color: #0d437e;
+  padding: 0 10em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.125rem;
+  padding-bottom: 1.75rem;
+  z-index: 10;
+}
+
+.av-footer-copyright{
+  font-size: 1.285em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.av-footer-moto{
+  font-size: 1.285em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.av-footer-social{
+  z-index: 5;
+}
+
+.av-footer-social_icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 1.25rem;
+}
+
+.av-footer-social_icon:hover{
+  fill: #efc836;
+}
