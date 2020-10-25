@@ -17,7 +17,7 @@ body {
 
 .av-container-background_left{
   position: absolute;
-  background-image: url(/AviationLanding/images/net2.png);
+  background-image: url(../images/net2.png);
   background-repeat: no-repeat;
   width: 50%;
   height: 45%;
@@ -28,7 +28,7 @@ body {
 
 .av-container-background_right{
   position: absolute;
-  background-image: url(/AviationLanding/images/net.png);
+  background-image: url(../images/net.png);
   background-repeat: no-repeat;
   background-position: 100% 0%;
   width: 50%;
@@ -40,7 +40,7 @@ body {
 
 .av-container-background_bottom{
   position: absolute;
-  background-image: url(/AviationLanding/images/net3.png);
+  background-image: url(../images/net3.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   width: 50%;
@@ -64,10 +64,15 @@ ul{
 
 .av-header{
   position: absolute;
-  padding: 2.5em 10em 0 10em;
+  padding: 2em 0;
   display: flex;
   justify-content: space-between;
   align-items: center; 
+  left: 50%;
+  transform: translate(-50%);
+  width: 75%;
+  margin: 0;
+  z-index: 10;
 }
 
 .av-header-logo{
@@ -228,7 +233,7 @@ h2{
 
 .av-main-expertise-radar{
   position: relative;
-  background-image: url(/AviationLanding/images/Radar_icons/radar.png);
+  background-image: url(../images/Radar_icons/radar.png);
   background-repeat: no-repeat;
   background-position: 50% 0%;
   width: 33%;
@@ -552,6 +557,7 @@ h3{
   width: 24px;
   height: 24px;
   margin-right: 1.25rem;
+  fill: none;
 }
 
 .av-footer-social_icon:hover{
